@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joker</title>
+
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lbr0492.github.io/joker/nojde_portfolio/css/main.css">
+</head>
+<body>
+    <div class="mamagerhead">
+        <div class="headline">
+            <span>
+                <button type="btn" action="#" class="button_icon">
+                    <img id="mainIcon" src="https://lbr0492.github.io/joker/nojde_portfolio/lib/jokerET.jpg" width="150px" height="85px" href="#">
+                </button>
+            </span>
+            <span class="jokerhead">
+                    <h1>조커</h1>
+                    <p>J.O.K.E.R</p>
+            </span>
+            <span class="login">
+                <label for="u_id">아이디</label>
+                <input type="text" class="userId form-control" id="u_id" placeholder="아이디를 입력하세요.">
+                <label for="u_pass">암호</label>
+                <input type="password" class="userPass form-control" id="u_pass" placeholder="비밀번호를 입력하세요.">
+            </span>
+        </div>
+        <div class="menubar">
+                <button type="button" class="btn">시놉시스</button>
+                <button type="button" class="btn">스크린샷</button>
+                <button type="button" class="btn">리뷰</button>
+                <button type="button" class="btn">자유게시판</button>
+        </div>
+    </div>
+    <div class="managerbody">
+        <div class="review">review</div>
+        <div>
+            <h3>스크린샷</h3>
+            <div id="carousel-scrennshot" class="screenshot carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-scrennshot" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-scrennshot" data-slide-to="1"></li>
+                    <li data-target="#carousel-scrennshot" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active"> 
+                        <img src="https://lbr0492.github.io/joker/nojde_portfolio/lib/1.jpg" alt="First slide"> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="https://lbr0492.github.io/joker/nojde_portfolio/lib/2.jpg" alt="Second slide"> 
+                    </div>
+                    <div class="item"> 
+                        <img src="https://lbr0492.github.io/joker/nojde_portfolio/lib/3.jpg" alt="Thired slide"> 
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#carousel-scrennshot" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-scrennshot" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="chat">chat</div>
+    </div>
+</body>
+</html>
